@@ -23,6 +23,5 @@ while True:
         sys.stdout.write("\r")
         print("World has been saved!")
         if(raw_input("Print what has been get? (y/N)\n") == "y"):
-            print("World has been saved!")
             sys.stdout.write(r.text)
         break

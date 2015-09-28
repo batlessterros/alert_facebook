@@ -10,7 +10,7 @@ while True:
     sys.stdout.flush()
     fb_down = 0
     try:
-        r = requests.get("https://www.facebook.com", timeout=1)
+        r = requests.get("https://www.facebook.com", timeout=5)
     except KeyboardInterrupt:
         sys.exit(0)
     except:
